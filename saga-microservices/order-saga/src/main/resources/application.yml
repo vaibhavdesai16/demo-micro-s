@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      host: 127.0.0.1
+      database: order
+      port: 27017
+  kafka:
+    bootstrap-servers: localhost:9092
+server:
+  port: 8078
+
